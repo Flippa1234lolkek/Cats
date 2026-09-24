@@ -15,3 +15,7 @@
 | `kotNaYlitche.html` | Street cat |
 | `creator.html` | Cosdatel |
 
+## Возможности
+
+- Единый `header` и `footer` на всех страницах.
+- Подключение кастомного шрифта `Monocraft` через `@font-face`.
