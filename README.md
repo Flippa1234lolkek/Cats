@@ -12,3 +12,8 @@
 | `maxwell.html` | Maxwell |
 | `kotNaYlitche.html` | Chmona |
 | `creator.html` | Cosdatel |
+
+## Возможности
+
+- Единый `header` и `footer` на всех страницах.
+- Кастомный шрифт `Monocraft`.
