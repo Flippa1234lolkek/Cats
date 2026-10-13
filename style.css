@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'My1';
+  src: url('fonts/Monocraft.woff2') format('woff2');
+  font-weight: 10;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 160px;
+    max-width: 760px;
+    min-height: 550px;
+    margin: 0 auto;
+}
+
+.head {
+    background: rgb(68, 68, 68);
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    background: rgb(68, 68, 68);
+    padding: 1% 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    color: rgb(21, 25, 75);
+    font-size: 2em;
+    font-family: 'My1';
+}
+
+.links-footer {
+    text-align: right;
+}
+.links-footer a {
+    margin-left: 13px;
+    color: #09092d;
+    font-size: 1.22em;
+    font-family: 'My1';
+}
+
+.links-header {
+    text-align: right;
+}
+.links-header a {
+    margin-left: 13px;
+    color: #09092d;
+    font-size: 1.22em;
+    font-family: 'My1';
+}
+
+.main-content {
+    font-family: 'My1';
+    font-size: 2.3em;
+    color: #c9c9c9;
+    text-shadow: 2px 5px 4px rgba(141, 141, 141, 1);
+    text-align: left;
+    border: 2px solid #919191;
+}
+
+.copyright {
+    font-family: 'My1';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.85em;
+    color: #cccccc;
+    padding: 10px 0;
+}
+
+img {
+    max-width: 100vw;
+    max-height: 100vh;
+}
